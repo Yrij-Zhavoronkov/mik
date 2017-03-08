@@ -1,0 +1,408 @@
+object param: Tparam
+  Left = 427
+  Height = 354
+  Top = 248
+  Width = 724
+  BorderStyle = bsSingle
+  Caption = 'Параметры интерфейса'
+  ClientHeight = 333
+  ClientWidth = 724
+  Font.Height = -11
+  Font.Name = 'Sans'
+  Menu = MainMenu1
+  LCLVersion = '1.4.4.0'
+  Visible = True
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 333
+    Top = 0
+    Width = 724
+    ActivePage = TabSheet3
+    Align = alClient
+    TabIndex = 2
+    TabOrder = 0
+    TabPosition = tpLeft
+    object TabSheet1: TTabSheet
+      Caption = 'ОП (ОЗУ)'
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Логирование'
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Терминал'
+      ClientHeight = 327
+      ClientWidth = 616
+      object GroupBox1: TGroupBox
+        Left = 264
+        Height = 288
+        Top = 16
+        Width = 337
+        Caption = 'Предпросмотр'
+        ClientHeight = 273
+        ClientWidth = 333
+        Font.Height = -11
+        Font.Name = 'Sans'
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 0
+        object x_term_prm: TPanel
+          Left = 16
+          Height = 242
+          Top = 16
+          Width = 304
+          BevelInner = bvLowered
+          BevelOuter = bvNone
+          ClientHeight = 242
+          ClientWidth = 304
+          Color = clBlack
+          Font.Color = clLime
+          Font.Height = -13
+          Font.Name = 'Sans'
+          ParentColor = False
+          ParentFont = False
+          TabOrder = 0
+          OnClick = x_term_prmClick
+          object Label1: TLabel
+            Left = 16
+            Height = 15
+            Top = 16
+            Width = 90
+            Caption = 'ВМ запущена'
+            ParentColor = False
+          end
+          object Label2: TLabel
+            Left = 16
+            Height = 15
+            Top = 40
+            Width = 83
+            Caption = 'Ввод: 32767'
+            ParentColor = False
+          end
+          object Label3: TLabel
+            Left = 16
+            Height = 15
+            Top = 64
+            Width = 98
+            Caption = 'Вывод: -32767'
+            ParentColor = False
+          end
+        end
+      end
+      object Label4: TLabel
+        Left = 16
+        Height = 13
+        Top = 25
+        Width = 74
+        Caption = 'Цвет фона:'
+        Font.Height = -11
+        Font.Name = 'Sans'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object back_color: TColorButton
+        Left = 128
+        Height = 25
+        Top = 21
+        Width = 99
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+        OnColorChanged = back_colorColorChanged
+      end
+      object Label5: TLabel
+        Left = 16
+        Height = 13
+        Top = 96
+        Width = 92
+        Caption = 'Цвет шрифта:'
+        Font.Height = -11
+        Font.Name = 'Sans'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object font_color: TColorButton
+        Left = 129
+        Height = 25
+        Top = 92
+        Width = 99
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clLime
+        OnColorChanged = font_colorColorChanged
+      end
+      object Label6: TLabel
+        Left = 16
+        Height = 13
+        Top = 168
+        Width = 42
+        Caption = 'Кегль:'
+        Font.Height = -11
+        Font.Name = 'Sans'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object Bevel1: TBevel
+        Left = 16
+        Height = 2
+        Top = 69
+        Width = 211
+      end
+      object Label7: TLabel
+        Left = 88
+        Height = 13
+        Top = 64
+        Width = 55
+        Caption = ' Шрифт '
+        Color = clBackground
+        Font.Color = clNavy
+        Font.Height = -11
+        Font.Name = 'Sans'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        Transparent = False
+      end
+      object kegel_size: TComboBox
+        Left = 128
+        Height = 25
+        Top = 160
+        Width = 100
+        AutoSize = False
+        ItemHeight = 0
+        ItemIndex = 2
+        Items.Strings = (
+          '8'
+          '9'
+          '10'
+          '11'
+          '12'
+          '13'
+          '14'
+          '15'
+          '16'
+        )
+        OnChange = kegel_sizeChange
+        TabOrder = 1
+        Text = '10'
+      end
+      object Label8: TLabel
+        Left = 16
+        Height = 13
+        Top = 208
+        Width = 83
+        Caption = 'Начертание:'
+        Font.Height = -11
+        Font.Name = 'Sans'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object SB: TSpeedButton
+        Left = 128
+        Height = 27
+        Top = 200
+        Width = 28
+        AllowAllUp = True
+        Caption = 'Ж'
+        Font.Height = -12
+        Font.Name = 'Sans'
+        Font.Style = [fsBold]
+        GroupIndex = 1
+        OnClick = SBClick
+        ParentFont = False
+      end
+      object SI: TSpeedButton
+        Left = 160
+        Height = 27
+        Top = 200
+        Width = 28
+        AllowAllUp = True
+        Caption = 'К'
+        Font.Height = -12
+        Font.Name = 'Sans'
+        Font.Style = [fsItalic]
+        GroupIndex = 2
+        OnClick = SBClick
+        ParentFont = False
+      end
+      object Label9: TLabel
+        Left = 16
+        Height = 13
+        Top = 136
+        Width = 101
+        Caption = 'Наименование:'
+        Font.Height = -11
+        Font.Name = 'Sans'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object kegel_name: TComboBox
+        Left = 128
+        Height = 25
+        Top = 128
+        Width = 100
+        AutoSize = False
+        ItemHeight = 0
+        ItemIndex = 4
+        Items.Strings = (
+          'Arial'
+          'Courier'
+          'Liberation Sans'
+          'FreeMono'
+          'Sans'
+        )
+        OnChange = kegel_nameChange
+        TabOrder = 2
+        Text = 'Sans'
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'Редактор кода'
+      ClientHeight = 327
+      ClientWidth = 616
+      object GroupBox2: TGroupBox
+        Left = 264
+        Height = 288
+        Top = 16
+        Width = 337
+        Caption = 'Предпросмотр'
+        Font.Height = -11
+        Font.Name = 'Sans'
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 0
+      end
+    end
+  end
+  object MainMenu1: TMainMenu
+    left = 128
+    top = 280
+    object MenuItem1: TMenuItem
+      Caption = 'Конфигурация'
+      object MenuItem2: TMenuItem
+        Caption = 'Применить и сохранить'
+        Bitmap.Data = {
+          36040000424D3604000000000000360000002800000010000000100000000100
+          2000000000000004000064000000640000000000000000000000383636923735
+          35F6373535F6373535F6373535F6373535F6373535F6373535F6373535F63735
+          35F6373535F6373535F6373535F6373535F6373535F638363676393838DC504F
+          4FFF5A5A5AFF616161FF646464FF6A6A6AFF737373FF767676FF7A7A7AFF7979
+          79FF727272FF696969FF5F5F5FFF5B5B5BFF4E4D4DFF383737D0393737F06362
+          62FF161616FF313131FF4C4C4CFF616161FF737373FF7F7F7FFF848484FF8585
+          85FF818181FF797979FF717171FF6D6D6DFF616161FF3A3737EB929292FED7D7
+          D7FFDFDFDFFFDFDFDFFFDFDFDFFFDFDFDFFFDFDFDFFFDFDFDFFFDFDFDFFFDFDF
+          DFFFDFDFDFFFDFDFDFFFDFDFDFFFDFDFDFFFD7D7D7FF8F8F8FFC989898F0A7A7
+          A7FF9E9E9EFFCDCDCDFFCDCDCDFFCECECEFFCECECEFFCECECEFFCECECEFFCDCD
+          CDFFCCCCCCFFCBCBCBFFC9C9C9FF9F9F9FFFA3A3A3FF989898EF9A9A9ADFC2C2
+          C2FFCECECEFFD0D0D0FFD5D5D5FFE2E2E2FFEAEBEAFF83BDA3FF73B598FFE8E9
+          E9FFE0E0E0FFD5D5D5FFCBCBCBFFC9C9C9FFBEBEBEFF999999DD9A9A9AC9C0C0
+          C0FFD0D0D0FFE0E0E0FFE5E5E5FFDEDEDEFF81B59DFF46A27CFF48A47FFF71AF
+          93FFDCDDDCFFE6E6E6FFDFDFDFFFC9C9C9FFBABABAFF9A9A9AC79A9A9AB0BCBC
+          BCFFC7C7C7FFDCDCDCFFD6D6D6FF95BCAAFF419D74FF66C7AFFF67C8B3FF439E
+          77FF86B5A0FFD0D0D0FFD5D5D5FFBDBDBDFFB6B6B6FF9A9A9AAC98989892B8B8
+          B8FFB3B3B3FFD5D5D5FFA6C4B7FF429C74FF6BC9B2FF73D1BCFF73D1BCFF6CCA
+          B3FF419C73FF9ABCACFFCFCFCFFFA8A8A8FFB2B2B2FF9898988F96969677B4B4
+          B4FAA9A9A9FFA6BDB2FF3F9B72FF6EC9B1FF7BD5C2FF7BD5C2FF7BD5C2FF7BD5
+          C2FF6FC9B3FF3F9A71FFA7BFB4FF9B9B9BFFACACACFA979797739A9A9A60ADAD
+          ADF3D7D7D7FF429870FF369569FF429D75FF83D9C7FF83D9C7FF83D9C7FF83D9
+          C7FF3C996FFF369569FF439972FFC2C2C2FFA8A8A8F29696965CA1A1A149ACAC
+          ACEFDEDEDEFFDDDDDDFFB4B4B4FF369569FF8BDECDFF8BDECDFF8BDECDFF8BDE
+          CDFF369569FFC5C5C5FFBABABAFFCDCDCDFFA1A1A1EF98989845A5A5A533ABAB
+          ABF0E0E0E0FFC1C1C1FFE4E4E4FF369569FF8FE0D0FF8FE0D0FF8FE0D0FF8FE0
+          D0FF369569FFD1D1D1FFD5D5D5FFCCCCCCFF9D9D9DF09696962EADADAD1CAAAA
+          AAF4E1E1E1FFB9B9B9FFE0E0E0FF369569FF8FE0D0FF8FE0D0FF8FE0D0FF8FE0
+          D0FF369569FFD1D1D1FFC1C1C1FFCBCBCBFF989898F69B9B9B17AAAAAA06ADAD
+          ADFBDDDDDDFFD8D8D8FFBCBCBCFF369569FF8FE0D0FF8FE0D0FF8FE0D0FF8FE0
+          D0FF369569FFBEBEBEFFBDBDBDFFC7C7C7FF969696FCAAAAAA0300000000B5B5
+          B59FADADADFEA9A9A9FFA5A5A5FF3C976DFF369569FF369569FF369569FF3695
+          69FF3C966DFF969696FF969696FF979797FC9A9A9A9700000000
+        }
+      end
+      object MenuItem3: TMenuItem
+        Caption = 'Загрузить параметры по умолчанию'
+        Bitmap.Data = {
+          36040000424D3604000000000000360000002800000010000000100000000100
+          2000000000000004000064000000640000000000000000000000000000000000
+          000000000000000000000000000000000000919191D28D8D8DFF8D8D8DFF7D8B
+          9AD70080F2140080F2140080F214006ADC1D0000000000000000000000000000
+          00008888880F909090938E8E8E4F808080088E8E8EFFCFCFCFFFCFCFCFFF5F81
+          A8FF4DA0F053689BCD857198BCB4126CD2610000000000000000000000008989
+          890D939393D2A6A6A6F8959595F5929292F2A4A4A4F3D2D2D2FFD2D2D2FF4D83
+          C0FA77A2C9F86092C0F981AAD0FC407ABAEA8989890D00000000000000009696
+          969CAAAAAAF8D5D5D5FFCECECEFFCBCBCBFFD6D6D6FFD9D9D9FFD9D9D9FF4387
+          D5FF8ABFEBFF6AAEE7FF8DC2EFFF3479C9FD9696969C00000000000000009494
+          9451989898F5CFCFCFFFD7D7D7FFDADADAFFDDDDDDFFD8D8D8FFD7D7D7FF2676
+          D5FF89C7F6FF57AEF1FF87C4F4FF1A6BCAFE969696500000000000000000AAAA
+          AA06979797F1CFCFCFFFD7D7D7FFD5D5D5FFCBCBCBFFB9B9B9FFB8B8B8FF0A63
+          D0FF8ACBFBFF45ADF8FF89CBFAFF0861CEFEAAAAAA06000000009B9B9BD29898
+          98FFA9A9A9F4D8D8D8FFD2D2D2FFCECECEFF9C9C9CF50B61CCF8005CCEFF1168
+          D1FF89CEFDFF3EAFFCFF89CEFDFF1067D1FF005CCEFF0D63CBFB9A9A9AFFDFDF
+          DFFFDFDFDFFFD3D3D3FFCECECEFFBCBCBCFF9D9D9DAF025CD067116BD5F581C8
+          FBFF6EC3FDFF3EAFFCFF6DC2FDFF85CBFCFF1E74D6FF5680B2FF9C9C9CFFE2E2
+          E2FFE2E2E2FFD1D1D1FFCCCCCCFFBEBEBEFFA0A0A0AE000000000360D09F3386
+          DEFC83CCFDFF4DB5FCFF83CBFDFF398CE1FF4E8CD6FF9C9C9CFFA2A2A2D29D9D
+          9DFFAFAFAFF5D9D9D9FFC0C0C0FFD4D4D4FFA1A1A1F5A2A2A2B09DA1A5B31F6C
+          C8FD4A9BE8FF8BCFFDFF4C9DE9FF206ECCFD999C9FFFA2A2A2D200000000AAAA
+          AA06A2A2A2F1DCDCDCFFC4C4C4FFC4C4C4FFD5D5D5FFC1C1C1FFC1C1C1FFC4CC
+          D5FF1268CFFF3C90E4FF146AD1FF949CA6F2AAAAAA060000000000000000A4A4
+          A451A5A5A5F5E2E2E2FFE6E6E6FFC0C0C0FFB5B5B5FFC4C4C4FFC3C3C3FFB6B6
+          B6FF99ABC1FF1F70D3FFB7C9DFFFA5A5A5F5A4A4A4510000000000000000A8A8
+          A89CBDBDBDF8ECECECFFE5E5E5FFE2E2E2FFDCDCDCFFCACACAFFCBCBCBFFDCDC
+          DCFFE2E2E2FFE5E5E5FFECECECFFBDBDBDF8A8A8A89B00000000000000009D9D
+          9D0DA9A9A9D2BEBEBEF8AAAAAAF5A8A8A8F2BBBBBBF3EFEFEFFFEFEFEFFFBBBB
+          BBF3A8A8A8F2ABABABF5BDBDBDF8A8A8A8D19D9D9D0D00000000000000000000
+          0000AAAAAA0FAAAAAA99A9A9A9509F9F9F08A7A7A7FFF2F2F2FFF2F2F2FFA7A7
+          A7FF9F9F9F08A9A9A950AAAAAA99AAAAAA0F0000000000000000000000000000
+          000000000000000000000000000000000000AEAEAED2A9A9A9FFA9A9A9FFACAC
+          ACD2000000000000000000000000000000000000000000000000
+        }
+      end
+      object MenuItem4: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem5: TMenuItem
+        Caption = 'Закрыть'
+        Bitmap.Data = {
+          36040000424D3604000000000000360000002800000010000000100000000100
+          200000000000000400006400000064000000000000000000000034147C4E3413
+          7DED34137BFF34137BFF34137BFF34137BFF34137BFF34137BFF34137BFF3413
+          7BFF34137BFF34137BFF34137BFF34137BFF34127DED32117E4D331583EE361C
+          A0FF381EABFF381EABFF381EABFF381EABFF381EABFF381EABFF381EABFF381E
+          ABFF381EABFF381EABFF381EABFF381EABFF371BA0FF331683ED331787FF3224
+          BEFF3123BEFF3123BEFF3123BFFF3025C1FF564FCEFF7872D8FF7974D9FF5850
+          CFFF3126C1FF3123BEFF3123BEFF3123BEFF3224BEFF331786FF321A8CFF3833
+          CBFF312BC9FF312AC9FF4F49CEFFC4C1ECFFFAFAFAFFFAFAFAFFFAFAFAFFFAFA
+          FAFFD0CEEFFF5953D2FF312BC9FF312BC9FF3832CBFF32198CFF311C92FF4442
+          D1FF3734CEFF4D48CFFFE9E8F5FFEFEEF7FF918DDFFF5953D1FF5852D1FF8B86
+          DEFFE7E7F5FFF1F1F8FF5F5AD4FF3735CEFF4442D1FF311C92FF301E97FF5052
+          D7FF3835CDFFC4C2ECFFF0F0F7FF5953D1FF3A39D0FF3D3FD3FF3D3FD3FF3939
+          CFFF4B44CDFFE6E6F5FFDAD9F2FF3937CEFF5052D7FF301E97FF2F209DFF5B61
+          DDFF5450D2FFFAFAFAFF9793E0FF3D40D3FF4349D8FF4349D8FF4349D8FF4349
+          D8FF3E40D3FF7F7BDBFFFAFAFAFF6966D7FF5B61DDFF2F209CFF2F23A2FF666F
+          E3FF7571D9FFFAFAFAFF5F5AD3FF4953DEFF4953DEFF444BDAFF444AD9FF4953
+          DEFF4953DEFF4B46CFFFFAFAFAFF8884DEFF666FE3FF2F23A2FF2E25A8FF717C
+          E8FF7571D9FFFAFAFAFF625DD4FF4F5DE3FF4750DCFF938FE0FF9996E1FF464E
+          DBFF4E5CE3FF544FD0FFFAFAFAFF807DDCFF717CE8FF2E25A8FF2D27AEFF7B8B
+          ECFF5251D4FFF9F9FAFFA4A1E4FF464FD9FF454ED9FFE2E1F4FFEBEAF6FF434A
+          D7FF4349D6FFA19DE3FFFAFAFAFF5C5CD6FF7B8BECFF2D27ADFF2C2AB3FF8698
+          EEFF4D59DCFFAFACE7FFF8F7F9FF8E8ADFFF3E3FD1FFE2E1F4FFEBEAF6FF3B3A
+          CEFF8884DDFFF8F7F9FFB4B1E8FF5060DFFF8698EEFF2C2AB3FF2B2CB9FF90A4
+          F1FF627FEBFF494DD5FFBFBDEBFFFAFAFAFF4D47CEFFE2E1F4FFEBEAF6FF463F
+          CCFFFAFAFAFFC4C1ECFF5158D9FF627FEBFF90A4F1FF2C2CB9FF2B2EBEFF99B0
+          F3FF688AEEFF6888EDFF4B58D9FF706EDAFF4246D2FFD6D5F1FFE0DFF4FF4040
+          D0FF716FDAFF505EDCFF688AEEFF688AEEFF99B0F3FF2B2EBEFF2A30C4FFA1BA
+          F6FF6E95F1FF6E95F1FF6E95F1FF6E95F1FF688AECFF5658D4FF5858D5FF6687
+          ECFF6E95F1FF6E95F1FF6E95F1FF6E95F1FFA1BAF6FF2A30C4FF2C36CCEF90A8
+          EFFFA9C5F8FFA9C5F8FFA9C5F8FFA9C5F8FFA9C5F8FFA9C5F8FFA9C5F8FFA9C5
+          F8FFA9C5F8FFA9C5F8FFA9C5F8FFA9C5F8FF8FA8EFFF2B37CAED2838D0522B3A
+          D1EF2835CFFF2835CFFF2835CFFF2835CFFF2835CFFF2835CFFF2835CFFF2835
+          CFFF2835CFFF2835CFFF2835CFFF2835CFFF2B39D1EF2737CF4F
+        }
+      end
+    end
+  end
+end
