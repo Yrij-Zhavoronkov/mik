@@ -8,7 +8,7 @@ object asm_code: Tasm_code
   ClientWidth = 619
   OnCreate = FormCreate
   OnResize = FormResize
-  LCLVersion = '1.6.0.4'
+  LCLVersion = '1.6.2.0'
   object macros_box: TPanel
     Left = 104
     Height = 392
@@ -728,8 +728,8 @@ object asm_code: Tasm_code
         Left = 8
         Height = 22
         Top = 80
-        Width = 219
-        Caption = 'Оптимизация вызовов процедур'
+        Width = 349
+        Caption = 'Оптимизация вызовов процедур (эксперементальная)'
         Checked = True
         Font.Color = clBlack
         Font.Height = -11

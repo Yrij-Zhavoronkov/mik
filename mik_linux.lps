@@ -8,7 +8,7 @@
         <Filename Value="mik_linux.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="5"/>
-        <CursorPos X="37" Y="12"/>
+        <CursorPos X="47" Y="8"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -19,8 +19,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="851"/>
-        <CursorPos X="152" Y="279"/>
+        <TopLine Value="265"/>
+        <CursorPos X="23" Y="279"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -31,8 +31,8 @@
         <ComponentName Value="term"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="52"/>
-        <CursorPos X="35" Y="68"/>
+        <TopLine Value="103"/>
+        <CursorPos X="18" Y="126"/>
         <UsageCount Value="213"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -41,9 +41,9 @@
         <Filename Value="mik_asm_compiller.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="730"/>
-        <CursorPos X="17" Y="1501"/>
-        <FoldState Value=" T3mU0H2 pj3jQ0A2371217B p0xL0m4]O0kI0C3 pn8nT0{M]hmVpE0_@2l"/>
+        <TopLine Value="515"/>
+        <CursorPos X="42" Y="515"/>
+        <FoldState Value=" T3mU0H2 pj3jQ0A2362217h"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -52,8 +52,8 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="Mik_VM"/>
         <EditorIndex Value="6"/>
-        <TopLine Value="37"/>
-        <CursorPos X="39" Y="54"/>
+        <TopLine Value="62"/>
+        <CursorPos X="23" Y="77"/>
         <UsageCount Value="202"/>
         <Loaded Value="True"/>
       </Unit4>
@@ -61,19 +61,18 @@
         <Filename Value="xterm_core.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="7"/>
-        <TopLine Value="84"/>
-        <CursorPos X="24" Y="84"/>
+        <TopLine Value="808"/>
+        <CursorPos X="32" Y="825"/>
         <UsageCount Value="207"/>
         <Loaded Value="True"/>
       </Unit5>
       <Unit6>
         <Filename Value="macro.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="122"/>
-        <CursorPos Y="253"/>
-        <FoldState Value=" T3kF0{P1^"/>
+        <TopLine Value="144"/>
+        <CursorPos X="13" Y="265"/>
+        <FoldState Value=" T3kF0{PU"/>
         <UsageCount Value="228"/>
         <Loaded Value="True"/>
       </Unit6>
@@ -114,9 +113,10 @@
         <ComponentName Value="asm_code"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
         <TopLine Value="469"/>
-        <CursorPos X="32" Y="491"/>
+        <CursorPos X="42" Y="472"/>
         <UsageCount Value="100"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -145,123 +145,127 @@
         <UsageCount Value="10"/>
       </Unit14>
     </Units>
-    <JumpHistory Count="29" HistoryIndex="28">
+    <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="16" Column="84"/>
+        <Caret Line="1497" Column="13" TopLine="1473"/>
       </Position1>
       <Position2>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="126" Column="22" TopLine="101"/>
+        <Caret Line="1512" Column="12" TopLine="1488"/>
       </Position2>
       <Position3>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="75" Column="30" TopLine="50"/>
+        <Caret Line="1513" Column="10" TopLine="1489"/>
       </Position3>
       <Position4>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="418" Column="39" TopLine="411"/>
+        <Caret Line="1530" Column="17" TopLine="1507"/>
       </Position4>
       <Position5>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="699" Column="56" TopLine="659"/>
+        <Caret Line="1539" Column="17" TopLine="1515"/>
       </Position5>
       <Position6>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="1305" Column="35" TopLine="1281"/>
+        <Caret Line="1553" Column="17" TopLine="1529"/>
       </Position6>
       <Position7>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="1334" Column="54" TopLine="1310"/>
+        <Caret Line="1574" Column="17" TopLine="1550"/>
       </Position7>
       <Position8>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="76" Column="59" TopLine="48"/>
+        <Caret Line="1598" Column="17" TopLine="1574"/>
       </Position8>
       <Position9>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="437" Column="21" TopLine="377"/>
+        <Caret Line="1611" Column="13" TopLine="1587"/>
       </Position9>
       <Position10>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="711" Column="16" TopLine="30"/>
+        <Caret Line="1628" Column="13" TopLine="1604"/>
       </Position10>
       <Position11>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="16" Column="45"/>
+        <Caret Line="1657" Column="18" TopLine="1633"/>
       </Position11>
       <Position12>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="33" Column="15" TopLine="8"/>
+        <Caret Line="1692" Column="17" TopLine="1668"/>
       </Position12>
       <Position13>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="151" Column="31" TopLine="126"/>
+        <Caret Line="1706" Column="17" TopLine="1682"/>
       </Position13>
       <Position14>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="160" Column="95" TopLine="135"/>
+        <Caret Line="1720" Column="17" TopLine="1696"/>
       </Position14>
       <Position15>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="188" Column="29" TopLine="163"/>
+        <Caret Line="1730" Column="17" TopLine="1706"/>
       </Position15>
       <Position16>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="200" Column="72" TopLine="175"/>
+        <Caret Line="1740" Column="17" TopLine="1716"/>
       </Position16>
       <Position17>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="202" Column="92" TopLine="177"/>
+        <Caret Line="1755" Column="17" TopLine="1731"/>
       </Position17>
       <Position18>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="203" Column="86" TopLine="178"/>
+        <Caret Line="1766" Column="16" TopLine="1742"/>
       </Position18>
       <Position19>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="33" Column="31" TopLine="24"/>
+        <Caret Line="1797" Column="26" TopLine="1773"/>
       </Position19>
       <Position20>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="39" Column="32" TopLine="25"/>
+        <Caret Line="1906" Column="15" TopLine="1882"/>
       </Position20>
       <Position21>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="34" Column="17" TopLine="28"/>
+        <Caret Line="2028" Column="39" TopLine="2004"/>
       </Position21>
       <Position22>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="102" Column="54" TopLine="77"/>
+        <Caret Line="2099" Column="54" TopLine="2075"/>
       </Position22>
       <Position23>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="103" Column="22" TopLine="78"/>
+        <Caret Line="2139" Column="39" TopLine="2115"/>
       </Position23>
       <Position24>
         <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="393" Column="23" TopLine="235"/>
+        <Caret Line="2237" Column="12" TopLine="2213"/>
       </Position24>
       <Position25>
-        <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="406" Column="16" TopLine="265"/>
+        <Filename Value="mik_vm.pas"/>
+        <Caret Line="41" Column="54" TopLine="37"/>
       </Position25>
       <Position26>
-        <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="408" Column="42" TopLine="330"/>
+        <Filename Value="mik_vm.pas"/>
+        <Caret Line="77" Column="23" TopLine="53"/>
       </Position26>
       <Position27>
-        <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="409" Column="27" TopLine="357"/>
+        <Filename Value="mik_vm.pas"/>
+        <Caret Line="407" Column="27" TopLine="383"/>
       </Position27>
       <Position28>
-        <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="104" Column="7" TopLine="85"/>
+        <Filename Value="mik_vm.pas"/>
+        <Caret Line="408" Column="27" TopLine="384"/>
       </Position28>
       <Position29>
-        <Filename Value="mik_asm_compiller.pas"/>
-        <Caret Line="709" Column="17" TopLine="682"/>
+        <Filename Value="xterm_core.pas"/>
+        <Caret Line="91" Column="44" TopLine="84"/>
       </Position29>
+      <Position30>
+        <Filename Value="xterm_core.pas"/>
+        <Caret Line="823" Column="24" TopLine="799"/>
+      </Position30>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>
